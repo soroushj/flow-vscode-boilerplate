@@ -1,0 +1,30 @@
+{
+  "name": "flow-vscode-boilerplate",
+  "version": "1.0.0",
+  "description": "Flow boilerplate + VS Code settings",
+  "main": "lib/index.js",
+  "scripts": {
+    "prestart": "npm run build",
+    "start": "node lib/index.js",
+    "prebuild": "rimraf lib",
+    "build": "babel src -d lib",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soroushj/flow-vscode-boilerplate.git"
+  },
+  "keywords": [
+    "flowtype",
+    "vscode",
+    "boilerplate"
+  ],
+  "author": "Soroush Javadi <soroush.javadi@gmail.com> (https://github.com/soroushj)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.52.0",
+    "rimraf": "^2.6.1"
+  }
+}
