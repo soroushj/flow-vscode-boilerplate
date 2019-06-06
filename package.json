@@ -22,7 +22,7 @@
   "author": "Soroush Javadi <soroush.javadi@gmail.com> (https://github.com/soroushj)",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.52.0",
     "rimraf": "^2.6.1"
